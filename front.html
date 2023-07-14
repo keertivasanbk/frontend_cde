@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="style1.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
   <link rel="stylesheet" href="style.css">
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -90,17 +91,19 @@
       <span class=" glyphicon glyphicon-bullhorn logo-small"></span>
       <p>ANNOUNCEMENT</p>
     </div>
-    <div class="col-sm-6">
+    <a href="./dashboard.html"><div class="col-sm-6">
       <span class=" glyphicon glyphicon-user logo-small"></span>
       <p>STUDENT</p>
     </div>
   </div>
+</a>
   <br><br>
   <div class="row slideanim">
-    <div class="col-sm-6">
+    <a href="./guidedashboard.html"><div class="col-sm-6">
       <span class=" glyphicon glyphicon-briefcase logo-small"></span>
       <p>GUIDE</p>
     </div>
+    </a>
     <div class="col-sm-6">
       <span class=" glyphicon glyphicon-king logo-small"></span>
       <p >RCM</p>
@@ -143,7 +146,64 @@ $(document).ready(function(){
     } // End if
   });
 })
-</script>
 
+
+
+
+
+
+
+</script>
+<!--
+  contact us 
+-->
+
+<div class="container" id="contact">
+  <h3 class="text-center">Contact</h3>
+  <p class="text-center"><em>For futher Enquires</em></p>
+  <div class="row test">
+    <div class="col-md-4">
+      <p>Centre for Distance Education<br>
+        Anna Univeristy<br>
+        Chennai<br>
+        600025</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Chennai, Tamil Nadu</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Tel: 044-22357216/21</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: distanceprog@annauniv.edu</p>
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+
+
+
+<footer class="container-fluid bg-4 text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>Developed By Integrated M.Sc, ComputerScience Students</p>
+  <div class="container" id="tag" style="background-color:  rgb(117, 209, 240);">
+  <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+  <a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+  <a href="https://www.gmail.com/"><i class="fa fa-google-plus"></i></a>
+  <a href="https://www.skype.com/"><i class="fa fa-skype"></i></a>
+  </div>
+</footer>
 </body>
 </html>

@@ -136,3 +136,31 @@ body {
   textarea {
     resize: none;
   }
+
+
+  .bg-4 {
+    background-color: rgb(117, 209, 240);
+    color: #ffffff;
+  } 
+
+
+  #tag {
+    background: #061D25;
+    padding: 10px 0;
+    text-align: center;
+  }
+  #tag a {
+    color: #70726F;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    transition: all .5s ease;
+  }
+  #tag a:first-child {
+    border-left: 1px solid #70726F;
+  }
+  #tag a:hover {
+    color: white;
+  }
+
+  
